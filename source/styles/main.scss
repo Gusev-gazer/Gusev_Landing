@@ -1,4 +1,6 @@
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
 
-body{
-  background: green;
-}
+@import "global/header";
+@import "global/_globalSettings";
+@import "global/vars";
