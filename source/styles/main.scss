@@ -1,6 +1,10 @@
 @import "../../node_modules/font-awesome/scss/font-awesome";
 @import "../../node_modules/normalize.scss/normalize";
 
-@import "global/header";
-@import "global/_globalSettings";
 @import "global/vars";
+@import "global/_globalSettings";
+@import "sections/header";
+@import "sections/slider";
+@import "sections/about-LMS";
+@import "sections/interested";
+@import "sections/courses";

@@ -4,17 +4,24 @@
   align-items: center;
   padding: 10px;
   background-color: #1A56D6;
-  min-height: 43px;
+  min-height: 45px;
   color: #fff;
   font-family: Arial, sans-serif;
-  font-size: 12px;
+  font-size: 13px;
 }
+.fa.fa-user{
+  padding: 5px;
+}
+.fa.fa-sign-in{
+  padding: 5px;
+}
+
 .register-content {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
   justify-content: space-between;
-  max-width: 1200px;
+  max-width: 1180px;
   a {
     text-decoration: none;
     color: #fff;
@@ -40,6 +47,7 @@ nav {
 .nav-content .logo {
   padding: 10px;
   font-size: 36px;
+  font-family: $ff-main;
 }
 .nav-content a {
   margin: 10px;
@@ -57,7 +65,7 @@ nav {
   font-size: 18px;
   padding: 10px;
 }
-.nav-comtent-menu {
+.nav-content-menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

@@ -1,6 +1,21 @@
 @font-face {
     font-family: 'Pacifico';
-    src: local('Pacifico Regular'), local('Pacifico-Regular'), url('source/fonts/Pacificoregular.woff2') format('woff2'), url('source/fonts/Pacificoregular.woff') format('woff'), url('source/fonts/Pacificoregular.ttf') format('truetype');
-    font-weight: 400;
+    src: url('../../fonts/Pacificoregular.woff') format('woff'),
+    url("../../fonts/Pacificoregular.woff2") format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.woff') format('woff'),
+    url("../../fonts/Montserrat-Bold.woff2") format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../../fonts/Montserrat-Regular.woff') format('woff'),
+    url("../../fonts/Montserrat-Regular.woff2") format('woff2');
+    font-weight: bold;
     font-style: normal;
 }
